@@ -2,8 +2,7 @@ import styled from 'styled-components'
 import { mixins } from '../../styles/mixins'
 
 export const HeaderContainer = styled.header`
-  padding: 2rem 10rem 2rem 10rem;
-  margin: 0 auto;
+  padding: 2rem 10rem;
 
   display: flex;
   justify-content: space-between;
