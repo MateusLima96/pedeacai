@@ -4,12 +4,17 @@ import { mixins } from '../../styles/mixins'
 
 export const HeroContainer = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background: url(${background}) center;
+  background-size: cover;
 
-  padding: 2rem 10rem;
-  background: url(${background});
-  background-size: contain;
+  #hero-content {
+    display: flex;
+    flex-direction: row;
+    padding: 6.75rem 0;
+    max-width: 1120px;
+  }
 `
 
 export const Heading = styled.div`
@@ -19,6 +24,7 @@ export const Heading = styled.div`
 
   p {
     ${mixins.fonts.textL}
+    margin-top: 1rem;
   }
 `
 
