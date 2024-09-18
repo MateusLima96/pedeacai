@@ -1,0 +1,46 @@
+{
+  "acais": [
+    {
+      "id": "0",
+      "title": "Açai de chocolate",
+      "description": "Tamanho - 300ml",
+      "price": 18.90,
+      "image": "/images/acais/copo-chocolate.png"
+    },
+    {
+      "id": "1",
+      "title": "Açai de Morango",
+      "description": "Tamanho - 300ml",
+      "price": 18.90,
+      "image": "/images/acais/copo-morango.png"
+    },
+    {
+      "id": "2",
+      "title": "Açai de Ninho",
+      "description": "Tamanho - 300ml",
+      "price": 18.90,
+      "image": "/images/acais/copo-ninho.png"
+    },
+    {
+      "id": "3",
+      "title": "Açai de Oreo",
+      "description": "Tamanho - 300ml",
+      "price": 18.90,
+      "image": "/images/acais/copo-oreo-pacoca.png"
+    },
+    {
+      "id": "4",
+      "title": "Combo Tropicais",
+      "description": "2 Açai de 300ml cada",
+      "price": 36.90,
+      "image": "/images/acais/combo-tropicais.png"
+    },
+    {
+      "id": "5",
+      "title": "Combo M&M",
+      "description": "2 Açai de 300ml cada",
+      "price": 36.90,
+      "image": "/images/acais/combo-m&m.png"
+    }
+  ]
+}
