@@ -42,6 +42,10 @@ export const Aside = styled.aside`
 
     background-color: ${({ theme }) => theme.colors['purple-light']};
 
+    svg {
+      color: ${({ theme }) => theme.colors['purple-dark']};
+    }
+
     padding: 8px;
     border-radius: 6px;
 
@@ -109,13 +113,5 @@ export const MapContainer = styled.div`
     span {
       ${mixins.fonts.textXS}
     }
-  }
-`
-
-export const MiniCartContainer = styled.div`
-  background: ${(props) => props.theme.colors['purple-light']};
-
-  svg {
-    color: ${(props) => props.theme.colors['purple-dark']};
   }
 `
